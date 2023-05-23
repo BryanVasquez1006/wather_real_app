@@ -1,0 +1,54 @@
+
+.locationIcon {
+    padding-bottom: 10px ;
+}
+.BiCurrentLocation {
+    color: white;
+}
+h1 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+aside {
+    background-color: #1E213A;
+    
+}
+
+.weatherInfo {
+    margin-top: 80px;
+}
+
+.today-date {
+    padding-top: 75px;
+}
+
+.GlobeLocation{
+    color: white;
+}
+
+.aside-info {
+     width: 576px;
+    
+
+}
+
+.aside-degrees {
+    font-size: 100px;
+}
+
+.aside-temperature {
+    font-size: 50px;
+}
+

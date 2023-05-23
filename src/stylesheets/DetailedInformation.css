@@ -1,0 +1,15 @@
+main {
+    background-color: #100E1D;
+}
+
+.cards-container {
+    height: 300px;
+    width: 200px;
+    background-color: #1E213A;
+ 
+}
+
+.weatherImg {
+    width: 100px;
+}
+

@@ -1,0 +1,21 @@
+.highlight-container {
+    height: 304px;
+    background-color: #1E213A;
+    margin-bottom: 20px;
+    width: 428px;
+}
+
+.wind-speed-i {
+    font-size: 75px;
+}
+
+.highlight-container-small {
+    height: 204px;
+    background-color: #1E213A;
+    margin-bottom: 20px;
+    width: 428px;
+}
+
+.ProgressBar {
+    width: 10px;
+}
