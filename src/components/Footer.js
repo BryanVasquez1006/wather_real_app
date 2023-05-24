@@ -11,7 +11,7 @@ export default function Footer({info}) {
         <div className="container highlight-container  d-flex flex-column justify-content-center align-items-center">
           <h3 className="">Wind status</h3>
           <div className="wind-speed d-flex">
-            <h1 className="wind-speed-i">{info.wind.speed}</h1>
+            <h1 className="wind-speed-i">{info.current.wind_mph}</h1>
             <p className="wind-speed-i">mph</p>
           </div>
         </div>
@@ -22,7 +22,7 @@ export default function Footer({info}) {
         <div className="container highlight-container d-flex flex-column justify-content-center align-items-center">
           <h3 className="">Humidity</h3>
           <div className="wind-speed d-flex">
-            <h1 className="wind-speed-i">{info.main.humidity}%</h1>
+            <h1 className="wind-speed-i">{info.current.humidity}%</h1>
               <ProgressBar now={75}/>
             <div className="container">
             </div>
@@ -35,7 +35,7 @@ export default function Footer({info}) {
         <div className="container highlight-container-small d-flex flex-column justify-content-center align-items-center">
           <h3 className="">Visibility</h3>
           <div className="wind-speed d-flex">
-            <h1 className="wind-speed-i">{info.visibility}</h1>
+            <h1 className="wind-speed-i">{info.current.vis_miles}</h1>
             <p className="wind-speed-i">miles</p>
           </div>
         </div>
@@ -46,7 +46,7 @@ export default function Footer({info}) {
         <div className="container highlight-container-small  d-flex flex-column justify-content-center align-items-center">
           <h3 className="">Air Pressure</h3>
           <div className="wind-speed d-flex">
-            <h1 className="wind-speed-i">{info.main.pressure}</h1>
+            <h1 className="wind-speed-i">{info.current.pressure_in}</h1>
             <p className="wind-speed-i">mb</p>
           </div>
         </div>

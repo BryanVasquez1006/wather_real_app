@@ -52,3 +52,13 @@ aside {
     font-size: 50px;
 }
 
+.Offcanvas {
+    width: 576px !important;
+    background-color: #1E213A;
+    color: white ;
+}
+
+.offClose {
+    color: white;
+}
+

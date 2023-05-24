@@ -1,7 +1,7 @@
 import React from "react";
 import CardImage from "../imgs/LightCloud.png";
 
-export default function WeatherCard() {
+export default function WeatherCard({info }) {
   return (
     <figure className="mt-5 d-flex container">
       <div className="container cards-container d-flex align-items-center m-4 row">
