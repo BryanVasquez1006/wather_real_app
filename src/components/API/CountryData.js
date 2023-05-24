@@ -3,11 +3,14 @@ import { useEffect, useState } from "react";
 import Footer from "../Footer";
 import AsideInformation from "../AsideInformation";
 import WeatherCard from "../DetailedInformation";
+import SearchDetails from "../OffCanvas";
+
 export default function CountryData() {
   const [currentWeather, setCurrentWeather] = useState({});
   const [nextdays, setNextdays] = useState([]);
   const [city, setCity] = useState('10001');
   const [isLoading, setIsLoading] = useState(true);
+  const [showform, setShowForm] = useState(false);
 
   const API_KEY = "0bad43a6462a4c9fbc6111102232203";
 
@@ -48,6 +51,7 @@ export default function CountryData() {
         <div className="row">
           <div className="col-lg-4">
         <AsideInformation info={currentWeather}/>
+        <SearchDetails setCity={setCity}  />
       </div>
 
       {/* CARDS */}

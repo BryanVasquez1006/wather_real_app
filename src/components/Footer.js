@@ -1,5 +1,5 @@
 import React from "react";
-import { ProgressBar } from "react-bootstrap";
+import  ProgressBar  from "react-bootstrap/ProgressBar";
 
 
 
@@ -21,10 +21,10 @@ export default function Footer({info}) {
       <div className="col col-lg-6">
         <div className="container highlight-container d-flex flex-column justify-content-center align-items-center">
           <h3 className="">Humidity</h3>
-          <div className="wind-speed d-flex">
+          <div className="">
             <h1 className="wind-speed-i">{info.current.humidity}%</h1>
-              <ProgressBar now={75}/>
             <div className="container">
+              <ProgressBar now={info.current.humidity} variant="warning" className="bg-white"/>
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ import OffCanvas from "./OffCanvas";
 
 export function AsideInformation({info}) {
   return (
-    <aside className="vh-100 aside-info d-flex flex-column">
+    <aside className="h-100 aside-info d-flex flex-column">
       <nav className="navBarArea p-3">
         <div className="buttons-container d-flex justify-content-between ">
           <OffCanvas/>
